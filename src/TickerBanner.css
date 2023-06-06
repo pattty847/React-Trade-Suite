@@ -1,0 +1,35 @@
+.ticker {
+    background-color: rgb(53, 53, 53);
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    height: 35px;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.add-remove {
+    position: absolute;
+    right: 5px;
+    padding: 5px;
+    background-color: rgb(25, 23, 23);
+}
+
+.ticker-item {
+    font-size: small;
+    background-color: rgb(25, 23, 23);
+    border-radius: 5px;
+    display: flex;
+    padding: 5px;
+    position: relative;
+    right: -100%;
+}
+
+.ticker-title {
+    padding-right: 10px;
+}
+
+@keyframes ticker {
+    0% { right: 100%; }
+    100% { right: -100%; }
+}

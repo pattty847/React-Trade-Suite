@@ -1,0 +1,33 @@
+[
+    {
+        "id": "535786277",
+        "info": {
+            "type": "match",
+            "trade_id": 535786277,
+            "maker_order_id": "df595681-d3aa-432c-acfa-5d3e878502e6",
+            "taker_order_id": "d695ca13-c608-47fc-868f-1ceaa8a0371e",
+            "side": "sell",
+            "size": "0.00404423",
+            "price": "27188.1",
+            "product_id": "BTC-USD",
+            "sequence": 61230063134,
+            "time": "2023-06-04T16:03:57.057426Z"
+        },
+        "timestamp": 1685894637057,
+        "datetime": "2023-06-04T16:03:57.057Z",
+        "symbol": "BTC/USD",
+        "takerOrMaker": "taker",
+        "side": "sell",
+        "price": 27188.1,
+        "amount": 0.00404423,
+        "fee": {
+            "currency": "USD"
+        },
+        "cost": 109.954929663,
+        "fees": [
+            {
+                "currency": "USD"
+            }
+        ]
+    }
+]
